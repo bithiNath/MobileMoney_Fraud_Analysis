@@ -23,6 +23,20 @@ Statistical analysis of 10.48M real-world-structured mobile money transactions t
 
 <br>
 
+📊 Key Visualizations
+
+Transaction amounts are heavily skewed, with extreme high-value outliers
+Show Image
+
+Fraudulent transactions are on average significantly larger than legitimate ones
+Show Image
+
+Fraudulent transactions cluster at unusually high amounts regardless of sender's balance
+Show Image
+
+
+
+
 ## 📈 Key Results
 
 **Descriptive Statistics (amount):**
@@ -62,16 +76,19 @@ Python · Pandas · SciPy · Statsmodels · Matplotlib · Seaborn
 
 <br>
 
-## 📁 Repository Structure
+
+## 📂 Repository Structure
+
+```text
+├── data/
+│   └── (Download Dataset: [https://www.kaggle.com/datasets/ealaxi/paysim1]
+├── notebook/
+│   └──data_analysis.ipynb
+├── visuals/
+├── LICENSE
+└── README.md
 ```
-├── 01_descriptive_stats.ipynb
-├── 02_outlier_detection.ipynb
-├── 03_hypothesis_testing.ipynb
-├── 04_anova.ipynb
-├── 05_correlation_regression.ipynb
-├── data/ (link to Kaggle dataset)
-└── visuals/
-```
+
 
 <br>
 
