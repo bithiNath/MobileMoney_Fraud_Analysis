@@ -23,16 +23,39 @@ Statistical analysis of 10.48M real-world-structured mobile money transactions t
 
 <br>
 
-📊 Key Visualizations
+## 📊 Key Visualizations
 
-Transaction amounts are heavily skewed, with extreme high-value outliers
-Show Image
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="doc/histogram.png" alt="Distribution of Transaction Amount" width="400" height="275" style="object-fit: contain;">
+    </td>
+    <td width="50%" align="center">
+      <img src="doc/boxplot.png" alt="Fraud vs Non-Fraud Comparison" width="400" height="300" style="object-fit: contain;">
+    </td>
+  </tr>
+</table>
 
-Fraudulent transactions are on average significantly larger than legitimate ones
-Show Image
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="doc/bargraph.png" alt="Amount vs Balance by Fraud Status" width="400" height="245" style="object-fit: contain;">
+    </td>
+    <td width="50%" align="center">
+      <img src="doc/boxplot_anova.png" alt="Amount vs Balance by Fraud Status" width="400" height="300" style="object-fit: contain;">
+    </td>
+  </tr>
+</table>
 
-Fraudulent transactions cluster at unusually high amounts regardless of sender's balance
-Show Image
+<table width="100%">
+  <tr>
+    <td width="100%" align="center">
+      <img src="doc/heatmap.png" alt="Amount vs Balance by Fraud Status" width="820" height="420" style="object-fit: fill; max-width: 100%;">
+    </td>
+  </tr>
+</table>
+
+
 
 
 
@@ -123,8 +146,6 @@ If you found this project helpful, please give it a **⭐ star** on GitHub!
 Pull requests and feedback are always welcome. 🙌
 
 
-<br>
 
 
-*Built with ❤️ using Python + Pandas + SciPy + Statsmodels + Matplotlib + Seaborn*
 
