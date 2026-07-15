@@ -12,7 +12,7 @@ Statistical analysis of 10.48M real-world-structured mobile money transactions t
 | Question | Method |
 |---|---|
 | What does typical transaction behavior look like? | Descriptive Statistics |
-| Which transactions are abnormal? | Z-score / IQR Outlier Detection |
+| Which transactions are abnormal? | IQR Outlier Detection |
 | Do fraud transactions really differ in size? | T-test |
 | Does amount vary by transaction type? | ANOVA |
 | What predicts fraud? | Correlation + Logistic Regression |
