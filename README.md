@@ -64,3 +64,28 @@ Python · Pandas · SciPy · Statsmodels · Matplotlib · Seaborn
 ## ⚠️ Limitations
 - Regression shows quasi-separation, meaning some coefficients may be less stable — a regularized logistic regression (e.g., L2 penalty) or tree-based model (Random Forest) would be a natural next step for production use
 - Analysis is exploratory/statistical, not a deployed fraud-detection system
+
+
+## 👤 Author
+
+**Bithi Nath**
+🔗 [Bithi Nath](https://linkedin.com/in/bithinath)
+🐙 [@bithiNath](https://github.com/bithiNath)
+
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
+
+
+
+## ⭐ Support
+
+If you found this project helpful, please give it a **⭐ star** on GitHub!
+Pull requests and feedback are always welcome. 🙌
+
+
+
+*Built with ❤️ using Python + Pandas + SciPy + Statsmodels + Matplotlib + Seaborn*
+
