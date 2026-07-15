@@ -2,10 +2,14 @@
 
 Statistical analysis of 10.48M real-world-structured mobile money transactions to identify patterns that distinguish fraudulent from legitimate activity, using descriptive statistics, outlier detection, hypothesis testing, and logistic regression.
 
+<br>
+
 ## 📊 Dataset
 - **Source:** [PaySim - Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/datasets/ealaxi/paysim1) (Kaggle)
 - **Size:** 10,48,576 transactions
 - **Columns:** `type`, `amount`, `oldbalanceOrg`, `newbalanceOrig`, `oldbalanceDest`, `newbalanceDest`, `isFraud`
+
+<br>
 
 ## 🎯 Business Questions & Methods
 
@@ -16,6 +20,8 @@ Statistical analysis of 10.48M real-world-structured mobile money transactions t
 | Do fraud transactions really differ in size? | T-test |
 | Does amount vary by transaction type? | ANOVA |
 | What predicts fraud? | Correlation + Logistic Regression |
+
+<br>
 
 ## 📈 Key Results
 
@@ -44,11 +50,17 @@ Statistical analysis of 10.48M real-world-structured mobile money transactions t
 - All three predictors (`amount`, `oldbalanceOrg`, `balance_diff_org`) statistically significant (p<0.001)
 - Note: model shows signs of quasi-separation (~40% of cases perfectly predicted), suggesting a near-deterministic threshold pattern in how fraud transactions are structured — a useful lead for rule-based flagging in addition to the model itself
 
+<br>
+
 ## 💡 Business Recommendation
 Prioritize real-time monitoring on **TRANSFER** and **CASH_OUT** transaction types, using a combined rule of (a) statistical outlier flagging on `amount` and (b) balance-discrepancy checks — the two signals shown here to carry the strongest fraud relationship.
 
+<br>
+
 ## 🛠️ Tools Used
 Python · Pandas · SciPy · Statsmodels · Matplotlib · Seaborn
+
+<br>
 
 ## 📁 Repository Structure
 ```
@@ -61,10 +73,14 @@ Python · Pandas · SciPy · Statsmodels · Matplotlib · Seaborn
 └── visuals/
 ```
 
+<br>
+
 ## ⚠️ Limitations
 - Regression shows quasi-separation, meaning some coefficients may be less stable — a regularized logistic regression (e.g., L2 penalty) or tree-based model (Random Forest) would be a natural next step for production use
 - Analysis is exploratory/statistical, not a deployed fraud-detection system
 
+
+<br>
 
 ## 👤 Author
 
@@ -73,6 +89,8 @@ Python · Pandas · SciPy · Statsmodels · Matplotlib · Seaborn
 🐙 [@bithiNath](https://github.com/bithiNath)
 
 
+<br>
+
 
 ## 📄 License
 
@@ -80,11 +98,15 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 
 
+<br>
+
 ## ⭐ Support
 
 If you found this project helpful, please give it a **⭐ star** on GitHub!
 Pull requests and feedback are always welcome. 🙌
 
+
+<br>
 
 
 *Built with ❤️ using Python + Pandas + SciPy + Statsmodels + Matplotlib + Seaborn*
