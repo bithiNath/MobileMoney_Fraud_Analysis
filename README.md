@@ -1,4 +1,4 @@
-# Mobile Money Transaction Fraud Analysis (PaySim Dataset)
+# Financial Fraud Detection Analytics
 
 Statistical analysis of 10.48M real-world-structured mobile money transactions to identify patterns that distinguish fraudulent from legitimate activity, using descriptive statistics, outlier detection, hypothesis testing, and logistic regression.
 
